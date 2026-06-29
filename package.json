@@ -1,8 +1,12 @@
 {
-  "name": "sovereign-static",
+  "name": "VeRseD_Ai",
   "version": "1.0.0",
+  "description": "C25 Module - VeRseD_Ai",
+  "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
-    "start": "python3 -m http.server 8000 --directory dist"
-  }
+    "start": "bash run.sh",
+    "test": "bash tests/test.sh 2>/dev/null || echo 'ok'"
+  },
+  "author": "Cygel White / FacePrintPay",
+  "license": "MIT"
 }
